@@ -18,7 +18,7 @@ def to_markdown(text):
 
 
 def init_model():
-    os.environ['GOOGLE_API_KEY'] = "AIzaSyCHghstLR5_5X8p7FN5Jx1VMzXKi_CmVGU"
+    os.environ['GOOGLE_API_KEY'] = "YOUR_API_KEY"
     genai.configure(api_key = os.environ['GOOGLE_API_KEY'])
 
     # Initialize Gemini model
